@@ -1,0 +1,24 @@
+#homepage{
+    display: block;
+    color: #000;
+    
+}
+#personaldetails{
+    display: none;
+}
+
+#userid{
+    display:none;
+}
+#coursepage{
+    display:none;
+}
+#name{
+    display: none;
+}
+#enrolled{
+    display:none;
+}
+#endpage{
+    display: block;
+}

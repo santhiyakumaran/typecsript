@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>ONLINE COURSES</title>
+        <link rel="stylesheet" href="css/mystyle.css">
+        <script type="text/javascript" src="./ts/main.js"></script>
+        <body>
+            <div id="homepage">
+                <button type="button" onclick="registration()">USER REGISTRATION FORM</button>
+            </div>
+            <br>
+            <br>
+
+            <div id="personaldetails">
+                <label>User Name</label>
+                <input type="text" id="username"><br><br>
+                <label>Age</label>
+                <input type="text" id="age"><br><br>
+                <label>Mobile Number</label>
+                <input type="text"  id="mobno"maxlength="10"><br>
+
+                <button type="button" onclick="login()">Login</button>
+            </div>
+            <br>
+            <br>
+
+            <div id="userid">
+                <label>Userid</label>
+                <input type="text" placeholder="userid"><br><br><br>
+                <button type="button" onclick="proceed()">confirm</button>
+            </div>
+            <br>
+
+            <div id="coursepage">
+                <button type="button" onclick="availablecourses()">Available courses</button>
+                <button type="button" onclick="enrolledcourses()">Enrolled courses</button><br> <br>
+                
+                <select id="name">
+                    <label>Select your courses</label>
+                    <option>None</option>
+                    <option>c# 5days</option>
+                    <option>HTML 3days</option>
+                    <option>CSS 4days</option>
+                    <option>JAVASCRIPT 3days</option>
+                    <option>TYPESCRIPT 2 days</option>
+                </select>
+            </div><br>
+            <br>
+
+            <div id="enrolled">
+                <label>CourseId</label>
+                <input type="text"><br><br>
+                <label>CourseName</label>
+                <input type="text"><br><br>
+                <label>Userid</label>
+                <input type="text"><br><br>
+            </div>
+            <br>
+            <br>
+            <div id="endpage">
+                <button type="button" onclick="exit()">GO TO HOME PAGE</button>
+            </div>
+               
+        </body>
+    </head>
+</html>
